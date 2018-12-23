@@ -1,17 +1,14 @@
 #pragma once
-#include"SFML\Audio.hpp"
-#include"SFML\Graphics.hpp"
-
-using namespace sf;
+#include"stdafx.h"
 
 class ShitSoundPlayer
 {
 private:
-	Music first;
-	Music second;
-	Music third;
-	Music fourth;
-	Music fifth;
+	Music _1;
+	Music _2;
+	Music _3;
+	Music _4;
+	Music _5;
 public:
 	void check_pressed_key();
 	ShitSoundPlayer();
