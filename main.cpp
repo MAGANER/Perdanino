@@ -11,7 +11,7 @@ int main()
 	
 
 	ShitSoundPlayer player;
-	ButtonPanel panel(gui);
+	ButtonPanel panel(gui, player);
 
 
 	while (window.isOpen())

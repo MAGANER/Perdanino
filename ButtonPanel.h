@@ -1,5 +1,6 @@
 #pragma once
 #include"TGUI\TGUI.hpp"
+#include"ShitSoundPlayer.h"
 using namespace tgui;
 
 
@@ -29,7 +30,7 @@ private:
 
 
 public:
-	ButtonPanel(Gui & gui);
+	ButtonPanel(Gui & gui, ShitSoundPlayer & player);
 	~ButtonPanel();
 };
 
