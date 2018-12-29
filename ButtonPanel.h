@@ -8,6 +8,8 @@ class ButtonPanel
 private:
 	Theme theme;
 
+	Label::Ptr annotation;
+
 
 	Button::Ptr down_pitch_of_1;
 	Button::Ptr up_pitch_of_1;

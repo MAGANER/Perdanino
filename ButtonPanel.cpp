@@ -4,11 +4,19 @@ ButtonPanel::ButtonPanel(Gui & gui)
 {
 	theme.load("themes/Black.txt");
 
+	annotation = Label::create();
+	annotation->setRenderer(theme.getRenderer("Label"));
+	annotation->setText("Pitch down/up");
+	annotation->setSize(50, 50);
+	annotation->setPosition(0, 0);
+	gui.add(annotation);
+
 	down_pitch_of_1 = Button::create();
 	down_pitch_of_1->setSize(50, 50);
 	down_pitch_of_1->setText("-");
 	down_pitch_of_1->setPosition(0, 50);
 	down_pitch_of_1->setRenderer(theme.getRenderer("Button"));
+
 	gui.add(down_pitch_of_1);
 
 	up_pitch_of_1   = Button::create();
