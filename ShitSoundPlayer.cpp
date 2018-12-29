@@ -7,6 +7,19 @@ Music* ShitSoundPlayer::get_music(int track_number)
 	{
 	case 1:
 		return _1;
+		break;
+	case 2:
+		return _2;
+		break;
+	case 3:
+		return _3;
+		break;
+	case 4:
+		return _4;
+		break;
+	case 5:
+		return _5;
+		break;
 	default:
 		cout << "fuck" << endl;
 		break;
